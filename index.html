@@ -38,6 +38,41 @@
         }
       </style>
     </noscript>
+
+    <style>
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      @-webkit-keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+        to {
+          opacity: 1
+        }
+      }
+
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+        .mySlides {
+        display: none
+      }
+    </style>
+
   </head>
   <body id="top">
     <header></header>
@@ -46,8 +81,11 @@
 <div class="ww-home-page" id="home">
   <div class="ww-wedding-announcement d-flex align-items-center justify-content-start">
     <div class="container ww-announcement-container">
-      <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" style="font-family: 'Dancing Script', cursive;"><p style ="font-size:40px">Chetan & Anusha </p></p> 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210503T051200Z%2F20210502T223000Z&location=Shalini%20G%20Shankar%20Convention%20Center%2C%20Halady%2C%20Karnataka&text=wedding%20date", target="_blank"><img class="img-fluid mt-1" src="images/laurel-1.png" alt="Heart" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>
+      <p class="ww-couple-name ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"><p style="font-family: 'Dancing Script', cursive; font-size: 45px;">Chetan & Anusha </p></p> 
+      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210503T051200Z%2F20210502T223000Z&location=Shalini%20G%20Shankar%20Convention%20Center%2C%20Halady%2C%20Karnataka&text=wedding%20date", target="_blank">
+        
+        
+        <img class="img-fluid mt-1" src="images/laurel-1.png" alt="photo" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000"/>=
 
       </a>
       <p class="h2 mt-5 ww-title" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-offset="10">03<sup>th</sup> May, 2021</p>
@@ -55,33 +93,34 @@
   </div>
 </div>
 
-<div class="ww-section bg-light" id="events">
+<div class="ww-section bg-light" id="events" style="border-color: black; border: 5px;">
   <div class="container ww-wedding-event">
     <h2 class="h1 text-center pb-3 ww-title" data-aos="zoom-in-down" data-aos-duration="1000">Wedding Events</h2>
     <div class="row">
       <div class="col-md-7 col-sm-12">
-        <div class="my-3">
-          <div class="h4">Wedding Party</div>
+        <div class="my-3" style="padding-left: 0px;padding-top: 0px;padding-bottom: 0px;padding-right:0px; font-size: 20px; border:2px; border-color: black;">
+          <div class="h4" style="font-size: 30px; font-family:'Dancing Script', cursive;">Wedding Party</div>
           <ul>
             <li><i class="text-muted fas fa-map-marker-alt"></i><span class="pl-2 text-muted">Shalini G.Shankar hall, Haladi, Kundapura</span></li>
             <li class="pt-2"><i class="text-muted far fa-calendar-alt"></i><span class="pl-2 text-muted">03 May 2021, 10:45AM - 4PM</span></li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit nulla enim arcu dictum lobortis, ac congue non hendrerit accumsan. Ut penatibus litora platea mi mus tempus eros proin, maecenas hac eget hendrerit inceptos per tempor sodales, id varius nulla commodo augue lectus pulvinar. Etiam suscipit leo sollicitudin vivamus tempor himenaeos vitae mattis dictum posuere, tincidunt aenean litora aptent facilisis eu est gravida.</p>
+          
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="my-3"><img class="img-fluid" src="images/wedding-party.jpg" alt="Wedding Party" data-aos="fade-down-right" data-aos-duration="1000"/></div>
+        <div class="my-3">
+         <img class="img-fluid" src="images/wedding-party.jpg" alt="wedding hall" data-aos="fade-up-right" data-aos-duration="1000"> 
+        </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-7 col-sm-12">
-        <div class="my-3">
-          <div class="h4">Reception</div>
+        <div class="my-3" style="padding-left: 0px;padding-top: 0px;padding-bottom: 0px;padding-right: 0px; font-size: 20px; border:2px; border-color: black;">
+          <div class="h4" style="font-size: 30px; font-family:'Dancing Script', cursive;">Reception</div>
           <ul>
-            <li><i class="text-muted fas fa-map-marker-alt "></i><span class="pl-2 text-muted">Mahalasa SiddiVinayaka hall, Madanagiri, Gokarna</span></li>
+            <li><i class="text-muted fas fa-map-marker-alt "></i><span class="pl-2 text-muted" >Mahalasa SiddiVinayaka hall, Madanagiri, Gokarna</span></li>
             <li class="pt-2"><i class="text-muted far fa-calendar-alt "></i><span class="pl-2 text-muted">04 May 2021, 11AM - 4PM</span></li>
           </ul>
-          <p>Lorem ipsum dolor sit amet consectetur adipiscing, elit nulla enim arcu dictum lobortis, ac congue non hendrerit accumsan. Ut penatibus litora platea mi mus tempus eros proin, maecenas hac eget hendrerit inceptos per tempor sodales, id varius nulla commodo augue lectus pulvinar. Etiam suscipit leo sollicitudin vivamus tempor himenaeos vitae mattis dictum posuere, tincidunt aenean litora aptent facilisis eu est gravida.</p>
+        
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
@@ -102,10 +141,10 @@
 				<div class="row copyright">
 					<div class="col-md-12 text-center">
 						<p>
-							<small class="block" style ="font-size:15px">Thanks and Regards</small>
+							<small class="block" style ="font-size:20px;">Thanks and Regards</small>
 						</p>
 						<p>
-							<small class="block" style="font-style:15px">© Chetan & Anusha</small>
+							<small class="block" style="font-style:20px;">	&#169 Chetan & Anusha</small>
 						</p>
 					</div>
 				</div>
@@ -119,5 +158,23 @@
     <script src="scripts/ekko-lightbox.min.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
     <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      console.log("clicked")
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for(i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if(slideIndex > slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 1000); // Change image every 2 seconds
+      }
+    </script>
   </body>
 </html>
